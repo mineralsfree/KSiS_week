@@ -5,14 +5,17 @@ import Beaker from "./Beaker/Beaker";
 class Diagram extends Component {
     total = [];
     scores = [
-        {name: "slytherin", points: 0, color: "#005E2C", house:"S"},
-        {name: "ravenclaw", points: 0, color: "#025d8c", house:"R"},
-        {name: "gryffindor", points: 0,  color: "#A70200", house:"H"},
-        {name: "hufflepuff", points: 0,color: "#C2A41E", house:"G"}
+        {name: "slytherin", points: 0, color: "#005E2C", house:"S", fontcolor: '#CCC'},
+        {name: "ravenclaw", points: 0, color: "#025d8c", house:"R", fontcolor: "#FFF"},
+        {name: "gryffindor", points: 0,  color: "#A70200", house:"H", fontcolor: '#C2A41E'},
+        {name: "hufflepuff", points: 0,color: "#C2A41E", house:"G",fontcolor:'#000'}
         ];
 
 
     render() {
+        this.scores.map((el)=>{
+            return el.points=0;
+        })
         this.props.stats.forEach((el) => {
             if (el.house === "S" ) {
                 this.scores[0].points += el.points;

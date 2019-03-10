@@ -16,4 +16,9 @@
   box-sizing: border-box;
   font-family: harryPotter, serif; }
 
+.advertisement {
+  font-size: 60px;
+  position: absolute;
+  margin-top: 1000px; }
+
 /*# sourceMappingURL=App.css.map */

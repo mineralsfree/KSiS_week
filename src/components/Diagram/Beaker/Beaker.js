@@ -20,11 +20,13 @@ class Beaker extends Component {
             height: this.props.val.points*2
         };
         this.opacStyle ={
-            backgroundColor: hexToRgbA(this.props.val.color)
+            backgroundColor: hexToRgbA(this.props.val.color),
+            color: this.props.val.fontcolor
         };
+
         return (
 
-            <div className={'opacitor'} style={this.opacStyle}><div style={this.divStyle} className={"Beaker"}><p>{this.props.val.points}</p></div></div>
+            <div className={'opacitor'} style={this.opacStyle}><div style={this.divStyle} className={"Beaker"}><p style={this.opacStyle}>{this.props.val.points}</p></div></div>
 
         );
     }
