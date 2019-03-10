@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/KSiS_week/static/media/wall.2a2699b8.png"
   },
   {
-    "revision": "57b844d0d816d1e422b99b1e5cecbd9a",
+    "revision": "0b749857481f6d15d6674c86a518569b",
     "url": "/KSiS_week/index.html"
   }
 ];
