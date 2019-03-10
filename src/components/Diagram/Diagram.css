@@ -1,0 +1,22 @@
+.diagram {
+  position: relative;
+  height: 880px;
+  width: 600px; }
+
+.beaker-container {
+  margin-bottom: 45px;
+  position: absolute;
+  bottom: 0;
+  width: 460px;
+  height: 700px;
+  margin-left: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  z-index: 1; }
+
+.image {
+  z-index: 2;
+  position: absolute; }
+
+/*# sourceMappingURL=Diagram.css.map */

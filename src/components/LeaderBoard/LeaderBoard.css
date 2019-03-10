@@ -1,0 +1,25 @@
+.leaderBord {
+  width: 985px;
+  border: 1px solid black;
+  height: 880px;
+  background-color: #502600; }
+
+.leaderBord-inner {
+  overflow-x: scroll;
+  text-align: center;
+  width: 940px;
+  height: 770px;
+  border: 1px solid black;
+  margin: 20px 20px 20px 20px;
+  background-color: #764C24; }
+
+::-webkit-scrollbar {
+  width: 0; }
+
+.leaderBoard-capture {
+  font-size: 58px;
+  margin: 0;
+  margin-left: 440px;
+  color: #fcee20; }
+
+/*# sourceMappingURL=LeaderBoard.css.map */

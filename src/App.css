@@ -1,33 +1,19 @@
+@font-face {
+  font-family: harryPotter;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./font/10467.ttf"); }
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url("./1x/wall.png");
+  width: 1920px;
+  height: 1080px;
+  padding-left: 125px;
+  padding-top: 35px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  justify-content: space-around; }
 
-.App-link {
-  color: #61dafb;
-}
+* {
+  box-sizing: border-box;
+  font-family: harryPotter, serif; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */
