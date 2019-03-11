@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9fe46da76a443df3a34f",
+    "revision": "7855cf3b43f47156118a",
     "url": "/KSiS_week/static/css/main.efe449d9.chunk.css"
   },
   {
-    "revision": "9fe46da76a443df3a34f",
-    "url": "/KSiS_week/static/js/main.fd769d68.chunk.js"
+    "revision": "7855cf3b43f47156118a",
+    "url": "/KSiS_week/static/js/main.b417e99d.chunk.js"
   },
   {
     "revision": "39e641b892907a06c092",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/KSiS_week/static/media/wall.2a2699b8.png"
   },
   {
-    "revision": "55d7d55175bef83f424ab6ff4281572e",
+    "revision": "2d0b304c16082d2fe0e8feca45d004fd",
     "url": "/KSiS_week/index.html"
   }
 ];
